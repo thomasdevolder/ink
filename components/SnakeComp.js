@@ -28,6 +28,13 @@ const SnakeComp = () => {
     'middle': '│'
   };
 
+		const emoji = [ "👽", "👾", "🤖", "🎃"];
+		const randomEmoji = (em) =>{
+			const number = Math.floor(Math.random() * em.length)
+			return em[number];
+		};
+		const chosenEmoji = randomEmoji(emoji);
+
   var center = [
     Math.floor(windowSize.width / 2),
     Math.floor(windowSize.height / 2)
@@ -114,7 +121,7 @@ const SnakeComp = () => {
       return;
     }
 
-    if (board[position[1]][position[0]] === '@') {
+    if (board[position[1]][position[0]] === chosenEmoji) {
       score++;
       len++;
       if (body.length) {
@@ -171,7 +178,7 @@ const SnakeComp = () => {
   function apple() {
     var x = Math.floor(Math.random() * size);
     var y = Math.floor(Math.random() * size);
-    board[y][x] = '@';
+    board[y][x] = chosenEmoji;
   }
 
   var rl = utils.createInterface();
