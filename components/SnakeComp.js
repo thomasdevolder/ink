@@ -1,7 +1,6 @@
 'use strict';
 var utils = require('readline-utils');
 var repeat = require('repeat-string');
-const React = require("react");
 
 const SnakeComp = () => {
   var windowSize = require('window-size');
