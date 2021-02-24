@@ -1,5 +1,4 @@
 const React = require("react");
-var snake = require('snake-cli');
 
 const Example = () => (
 	<>
