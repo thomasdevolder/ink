@@ -25,7 +25,7 @@ const App = ({ }) => (
 		<Text>
 			Hello, my name is <Text color="green">{name}</Text>
 
-			{<TestComp />}
+			<TestComp />
 		</Text>
 
 
