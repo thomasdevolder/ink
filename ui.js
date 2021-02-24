@@ -6,6 +6,7 @@ const App = ({ name = 'Stranger' }) => (
 	<>
 		<Text>
 			Hello, <Text color="green">{name}</Text>
+			I am a retard
 		</Text>
 	</>
 );
