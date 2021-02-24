@@ -1,18 +1,17 @@
 {
-	"name": "terminal-app",
-	"version": "0.0.0",
+	"name": "devine-snake-app",
+	"version": "0.0.1",
 	"license": "MIT",
 	"bin": "cli.js",
 	"engines": {
 		"node": ">=10"
 	},
-	"homepage": "https://github.com/thomasdevolder/ink/blob/development/readme.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thomasdevolder/ink.git"
 	},
 	"keywords": [
-		"devine-dev4-terminal"
+		"devine-dev4-terminal-snake"
 	],
 	"scripts": {
 		"test": "xo && ava"
