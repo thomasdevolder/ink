@@ -5,6 +5,9 @@ const { Text } = require('ink');
 const importJsx = require('import-jsx');
 const TestComp = importJsx("./components/TestComp.js");
 
+import { h, render, Text } from 'ink';
+import TextAnimation from 'ink-text-animation';
+
 const name = "Dit is een testnaam";
 
 const Component = () => {
@@ -15,11 +18,17 @@ const Component = () => {
 
 
 const App = ({ }) => (
-	<Text>
-		Hello, my name is <Text color="green">{name}</Text>
-		<Component />
-		{<TestComp />}
-	</Text>
+	<>
+		<Text>
+			Hello, my name is <Text color="green">{name}</Text>
+			<Component />
+			{<TestComp />}
+		</Text>
+
+		<TextAnimation>
+			<Text>{`Look at me, I'm moving!`}</Text>
+		</TextAnimation>
+	</>
 );
 
 module.exports = App;
