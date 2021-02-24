@@ -1,6 +1,6 @@
 {
 	"name": "devine-snake-app",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"license": "MIT",
 	"bin": "cli.js",
 	"engines": {
