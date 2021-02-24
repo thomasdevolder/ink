@@ -1,6 +1,7 @@
 'use strict';
 const React = require('react');
 const { Text } = require('ink');
+
 // Deze lijn zorgt ervoor dat je externe jsx kan importeren
 const importJsx = require('import-jsx');
 const TestComp = importJsx("./components/TestComp.js");
