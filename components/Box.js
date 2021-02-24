@@ -1,4 +1,4 @@
-import {render, Box} from 'ink';
+const React = require("react");
 var snake = require('snake-cli');
 
 const Example = () => (
@@ -10,4 +10,4 @@ const Example = () => (
 	</>
 );
 
-render (<Example/>);
+module.exports = Example
