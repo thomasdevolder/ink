@@ -22,7 +22,7 @@ const App = ({ }) => (
 	<Text>
 		Hello, my name is <Text color="green">{name}</Text>
 		<Component />
-		{<SnakeComp />}
+		<SnakeComp />
 	</Text>
 );
 
