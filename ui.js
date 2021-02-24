@@ -6,6 +6,9 @@ const { Text } = require('ink');
 const importJsx = require('import-jsx');
 const SnakeComp = importJsx("./components/SnakeComp.js");
 
+//import { h, render, Text } from 'ink';
+//import TextAnimation from 'ink-text-animation';
+
 const name = "Dit is een testnaam";
 
 const Component = () => {
